@@ -1,0 +1,40 @@
+.header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.home-link {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.home-link:hover {
+  text-decoration: underline;
+}
+
+.header-right a {
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.header-right a:hover {
+  text-decoration: underline;
+}

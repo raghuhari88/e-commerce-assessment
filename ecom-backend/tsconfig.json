@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Use ES2020 for good async/await and bigint support */
+    "target": "ES2020",
+
+    /* CommonJS works better for Knex CLI in Node.js */
+    "module": "CommonJS",
+
+    /* Node-style resolution for server code */
+    "moduleResolution": "Node",
+
+    /* Output compiled JS to /dist */
+    "outDir": "dist",
+    "rootDir": "src",
+
+    /* Interop for default imports from CommonJS */
+    "esModuleInterop": true,
+
+    /* Good practice flags */
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "knexfile.ts", // Knex config
+    "migrations/**/*.ts",
+    "seeds/**/*.ts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

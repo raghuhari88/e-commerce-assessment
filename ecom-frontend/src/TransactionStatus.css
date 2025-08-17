@@ -1,0 +1,44 @@
+.transaction-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.transaction-page h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.transaction-page p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.transaction-page a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-page a:hover {
+  background-color: #0056b3;
+}
+
+/* Specific styling for success and cancel states */
+.success {
+  color: green;
+}
+
+.cancel {
+  color: red;
+}

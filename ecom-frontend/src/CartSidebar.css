@@ -1,0 +1,26 @@
+.cart-sidebar {
+  width: 300px;
+  max-height: 100vh;
+  padding: 20px;
+  background-color: #fafafa;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.cart-sidebar-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.cart-empty {
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+  margin-top: 50px;
+}
